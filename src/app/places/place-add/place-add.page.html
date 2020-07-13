@@ -1,9 +1,20 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>place-add</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/places"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Add a New Place</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-row>
+    <ion-col>
+      <ion-card>
+        <ion-card-content>
+          <ion-input type="text" placeholder="Write a Title"></ion-input>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
 </ion-content>
