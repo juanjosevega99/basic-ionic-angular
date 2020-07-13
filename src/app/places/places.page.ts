@@ -25,4 +25,8 @@ export class PlacesPage implements OnInit {
     this.router.navigate(['/new-place'])
   }
 
+  goToHome() {
+    this.router.navigate(['/home'])
+  }
+
 }
